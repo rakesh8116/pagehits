@@ -1,0 +1,15 @@
+dependencies: \
+  /Users/nandini/Projects/Personal/pagehits/node_modules/react-native/React/Modules/RCTDeviceInfo.m \
+  /Users/nandini/Projects/Personal/pagehits/node_modules/react-native/React/Modules/RCTDeviceInfo.h \
+  /Users/nandini/Projects/Personal/pagehits/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/nandini/Projects/Personal/pagehits/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/nandini/Projects/Personal/pagehits/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/nandini/Projects/Personal/pagehits/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/nandini/Projects/Personal/pagehits/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/nandini/Projects/Personal/pagehits/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/nandini/Projects/Personal/pagehits/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/nandini/Projects/Personal/pagehits/node_modules/react-native/React/Modules/RCTAccessibilityManager.h \
+  /Users/nandini/Projects/Personal/pagehits/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/nandini/Projects/Personal/pagehits/node_modules/react-native/React/Base/RCTEventDispatcher.h \
+  /Users/nandini/Projects/Personal/pagehits/node_modules/react-native/React/UIUtils/RCTUIUtils.h \
+  /Users/nandini/Projects/Personal/pagehits/node_modules/react-native/React/Base/RCTUtils.h

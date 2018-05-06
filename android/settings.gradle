@@ -1,0 +1,3 @@
+rootProject.name = 'pagehits'
+
+include ':app'
