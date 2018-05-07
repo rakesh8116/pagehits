@@ -1,26 +1,22 @@
-
 import React, { Component } from 'react';
-import { View } from 'react-native';
-import { Provider } from 'react-redux';
-import { call, put, takeEvery, takeLatest } from 'redux-saga/effects';
-import { createStore, applyMiddleware } from 'redux';
-import createSagaMiddleware from 'redux-saga';
+import { AsyncStorage, View, Image } from 'react-native';
+import { connect } from 'react-redux';
 
-export default class App extends Component {
+import LoginScreen from './src/Modules/Auth/Login/Login';
+import Dashboard from './src/Modules/Dashboard/Dashboard';
 
-    render() {
-
-        const sagaMiddleware = createSagaMiddleware()
-
-        global.reduxStore = createStore(reducer,
-          applyMiddleware(sagaMiddleware)
-        );
-    
- 
-        return (
-          <Provider store={global.reduxStore}>
-            <Stack initialRoute={screenName} />
-          </Provider>
-        );
-      }
+class App extends Component {
+  render() {
+    if (this.props.isLoggedIn) {
+        return <Dashboard />;
+    } else {
+        return <LoginScreen />;
+    }
+  }
 }
+const mapStateToProps = (state, ownProps) => {
+  return {
+      isLoggedIn: state.loginReducer.isLoggedIn
+  };
+}
+export default connect(mapStateToProps)(App);
