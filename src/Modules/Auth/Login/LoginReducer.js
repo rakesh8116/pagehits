@@ -8,7 +8,7 @@ const defaultState = {
 export default function reducer(state = defaultState, action) {
   switch (action.type) {
     case 'SET_LOGIN_USER': 
-      console.log('In Login Reducer', action)
+      console.log('In Login Reducer ', action)
       return Object.assign({}, state, { 
           isLoggedIn: true,
           username: action.username,
